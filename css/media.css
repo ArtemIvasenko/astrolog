@@ -1,0 +1,579 @@
+@media only screen and (min-width: 1921px){
+   .main_box{
+        max-width: 1912px;
+        position: relative;
+        left: 50%;
+        margin-left: -956px;
+        overflow:hidden;
+    }
+    .img_bckg_rot{
+        width: 3525px;
+        height:3525px;
+        top: -1125px;
+        margin-left: -1725px;
+    }
+    .popup_box{
+        left: 50%;
+        margin-left: -960px;
+    }
+}
+@media only screen and (max-width: 1919px){
+   /*.autor{
+        min-height: 50.21vw;
+    }  */  
+
+}
+
+@media only screen and (max-width: 1650px){
+    .autor{
+        min-height: 800px;
+    }
+    .lottie_feedback{
+        width:390px; 
+        margin-left:-195px;
+    }
+    .steps_by_steps{
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding: 0 5%;
+    }
+
+    .text_step{
+        font-size:24px;
+    }
+    .text_reviews_slider{
+        max-width: 1250px;
+        margin-left: -625px;
+    }
+    .video_reviews_slider{
+        max-width: 1290px;/*-386*/
+        height:324px;
+        margin-left: -645px;
+    }
+    .video_reviews_box{
+        width: 324px !important;
+        height: 324px !important;  
+        margin-right: 53px;
+        margin-left: 53px;
+    }
+    .video_content_box{
+        width: 304px;
+        height: 304px;        
+    }
+    .icon_big_video{
+        line-height: 304px;
+    }
+    .steps_boxes{
+        width: 100% !important;
+    }
+    .arrow_box_step{
+        width: 80px;
+        height:80px;
+        line-height: 80px;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg); 
+    }
+    .profit h2{
+        font-size:60px;
+        padding: 0 20px;
+    }
+    .content_popup,
+    .content_page{
+        width:90%;
+        left: 5%;
+        margin-left: 0;
+    }
+    .input_form{
+        width: 92.6%;
+    }
+    .old_box_input{
+        width: 92.6%;
+    }
+    .experience{
+        min-height: 800px;
+    }
+    .img_star_light{
+        width: 800px;
+        margin-left: -400px;
+        top: 68px;
+    }
+    .img_autor{
+        bottom: 40px;
+    } 
+    .info_autor{
+        width: 520px;
+    }
+    .name_autor{
+        height: 200px;
+        font-size:100px;
+        line-height:100px;
+    }
+    .status_autor{
+        height: 60px;
+        font-size:52px;
+    }
+    .slogan_autor{
+        font-size:50px;
+        margin-top:26px;
+    }
+    .animation_content_box-4{
+        width: 100vw;
+        left: 0;
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 1480px){
+    .img_star_light{
+        width: 700px;
+        margin-left: -360px;
+        top: 68px;
+    }    
+    .slogan_autor {
+        margin-top: 0;
+        margin-left: 10px;
+    }
+
+    .profit h3{
+        font-size:27px;
+    }
+    .text_reviews_slider{
+        max-width: 1000px;
+        margin-left: -500px;
+    }
+    .video_reviews_slider{
+        max-width: 1040px;/*-386*/
+        margin-left: -520px;
+    }
+    .video_reviews_box{ 
+        margin-right: 98px;
+        margin-left: 98px;
+    }
+}
+@media only screen and (max-width: 1366px){
+    .autor{
+        min-height: 700px;
+    }
+    .experience{
+        min-height: 700px;
+    }
+    .img_star_light{
+        width: 600px;
+        margin-left: -310px;
+        top: 94px;
+    }   
+    .img_autor{
+        bottom: 60px;
+    } 
+    .info_autor {
+        top: 100px;
+        right: 120px;
+    }
+    .slogan_autor {
+        width: 584px;
+        font-size:46px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1280px){
+    .autor{
+        min-height: 660px;
+    }
+    .experience{
+        min-height: 660px;
+    }
+    .order_form_open{
+        font-size: 16px;
+        padding: 16px;
+    }
+    .first_btn_page{
+        width: 140px;
+        margin-left: -70px;
+        bottom: 5%;
+    }
+    .big_btn_page{
+        width:500px;
+        height: 130px;
+        font-size: 30px;
+        margin-left: -250px;
+        padding: 10px;
+    }
+    .img_star_light{
+        width: 540px;
+        margin-left: -280px;
+        top: 94px;
+    } 
+    .img_autor{
+        bottom: 60px;
+    }  
+    .info_autor{
+        width: 37.53vw;
+        top: 10vw;
+        right: 9.38vw;
+    }
+    .name_autor{
+        height:14.07vw;
+        font-size:7.04vw;
+        line-height:7.04vw;
+    }
+    .status_autor{
+        height: 4.69vw;
+        font-size:4.07vw;
+         margin-left: 1.56vw;
+    }
+    .slogan_autor{
+        width: 36.28vw;
+        height:6.25vw;
+        font-size: 3vw;
+        margin-top: 1.72vw;
+    }
+}
+@media only screen and (max-width: 1279px){
+    .autor{
+        min-height: 54.78vw;
+        padding-top: 30px;
+    }
+    .status_autor{width: 32.84vw;}
+    .experience{
+        min-height: 43.78vw;
+    }
+    .img_star_light{
+        width: 42.22vw;
+        margin-left: -21.89vw;
+        top: 7.35vw;
+    }
+    .text_reviews_slider{
+        
+        max-width: 750px;
+        margin-left: -375px;
+    }
+    .video_reviews_slider{
+        height:325px;
+        max-width: 790px;/*-386*/
+        margin-left: -395px;
+    }
+    .video_reviews_box{
+        width: 325px !important;
+        height: 325px !important;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+    .video_content_box{
+        width: 305px;
+        height: 305px;        
+    }
+    .icon_big_video{
+        line-height: 305px;
+    }
+    .img_bckg{
+        width: 1700px;
+        height: 1325px;
+        top: -180px;
+        left: -180px;        
+    }
+    .img_autor{
+        width:39.23vw;
+        height:47.54vw;
+        bottom: 4.69vw;/*220px*/
+        animation-name: scale;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(.08,.68,.32,.99);
+        animation-fill-mode:forwards;
+        animation-delay: 1s;
+        transform:scale(0);
+    }
+    .name_autor{
+        width: 32.84vw;
+        animation-name: displayon;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-timing-function: linear;
+        animation-fill-mode:forwards;
+        animation-delay: 1s;
+    }
+    .lottie_feedback{
+        width:250px; 
+        margin-left:-125px;
+    }
+    .profit h2{
+        font-size:38px;
+    }
+    .profit h3{
+       /* font-size:18px;*/
+    }
+
+    .lottie_player{
+        display:block;
+    }
+    .lottie_player-2{
+        display:block;
+    }
+    .animation_content{
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 959px){
+    .transition_box_v{
+        height: 80px;
+    }
+    .first_btn_page{
+        display:none;
+    }
+    .info_autor{
+        top: 12vw;
+    }
+    .order_form_open{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .text_reviews_slider{
+        max-width: 500px;
+        margin-left: -250px;
+    }
+    .video_reviews_slider{
+        height:324px;
+        max-width: 540px;/*-386*/
+        margin-left: -270px;
+    }
+    .video_reviews_box{
+        width: 324px !important;
+        height: 324px !important;
+        margin-right: 108px;
+        margin-left: 108px;
+    }
+    .video_content_box{
+        width: 304px;
+        height: 304px;        
+    }
+    .icon_big_video{
+        line-height: 304px;
+    }
+    .first_btn_page{
+        width: 100px;
+        margin-left: -50px;
+        bottom: -5%;
+    }
+    .big_btn_page{
+        width:300px;
+        height: 80px;
+        font-size: 16px;
+        margin-left: -150px;
+        padding: 10px;
+    }
+    .transition_box_v{
+        height: 80px;
+        background: url(../img/content/pfrm_2_960.png) no-repeat center center;
+        /*bottom: -7px;*/
+    }
+    .animation_content{
+        -webkit-flex: 0 0 280px;
+        -ms-flex: 0 0 280px;
+        flex: 0 0 280px;
+    }
+}
+
+@media only screen and (max-width: 719px){
+    .transition_box_v{
+        height: 30px;
+        background: url(../img/content/pfrm_2_720.png) no-repeat center center;
+    }
+    .text_reviews_slider{
+        max-width: 250px;
+        margin-left: -125px;
+    }
+    .video_reviews_slider{
+        height:230px;
+        max-width: 290px;/*-386*/
+        margin-left: -145px;
+    }
+    .video_reviews_box{
+        width: 230px !important;
+        height: 230px !important;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .video_content_box{
+        width: 210px;
+        height: 210px;        
+    }
+    .icon_big_video{
+        line-height: 210px;
+    }
+   /* .transition_box{
+        background: url(../img/content/pfrm_720.png) no-repeat center center;
+        top: 0;
+    }
+    .autor{
+        padding-top: 10px;
+    }*/
+    .slogan_autor{
+        margin-left: 6px;
+        transform:rotate(-7deg);
+    }
+    .img_autor{
+        bottom: 3vw;/*220px*/
+    }
+    .img_bckg{
+        width: 1400px;
+        height: 1091px;
+        top: -100px;
+        left: -200px;        
+    }
+
+}
+@media only screen and (max-width: 600px){
+    .info_autor{
+        top: 14vw;
+    }  
+    .img_autor{
+        bottom: 2vw;/*220px*/
+    }
+    .content_popup,
+    .content_page{
+        padding: 20px;
+        border-radius:20px;
+    }
+    .hdr_form{
+        font-size: 20px;
+    }
+    .input_form,
+    .input_form_old{
+        font-size: 16px;
+    }
+    .text_step{
+        font-size:20px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .info_autor{
+        top: 16vw;
+    }
+
+    .content_popup,
+    .content_page{
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        padding: 0;
+        border-radius:0;
+        border-style:none;
+    }
+    .media-m-b{
+        margin-bottom: 0 !important;
+    }
+    .media-m-t-40{
+        margin-top: 40px !important;
+    }
+    .media-m-t-60{
+        margin-top: 60px !important;
+    }
+    .media-m-b-40{
+        margin-bottom: 40px !important;
+    }
+    .experience_media{
+        display:block;
+        min-height: 460px;
+    }
+
+    .text_reviews_slider{
+        max-width: 300px;
+        margin-left: -150px;
+        height: 442px;
+    }
+    .video_reviews_slider{
+        max-width: 320px;/*-386*/
+        margin-left: -160px;
+        height: 276px;
+    }
+    .video_reviews_box{
+        width: 230px !important;
+        height: 230px !important;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .hdr_form{
+        font-size: 18px;
+    }
+    .btn_form{
+        margin-top: 10px;
+    }
+    .input_form,
+    .input_form_old{
+        font-size: 14px;
+    }
+    .order_form_open{
+        animation: shadowsmall 1s infinite linear;
+        
+        padding: 5px;
+    }
+    .first_btn_page{
+        width: 90px;
+        margin-left: -45px;
+        bottom: -5%;
+    }
+   /* .big_btn_page{
+        width:190px;
+        height: 60px;
+        font-size: 12px;
+        margin-left: -95px;
+        padding: 5px;
+    }*/
+    .lottie_player-2{
+        display:none;
+    }
+    .img_star_light{
+        display:none;
+    }
+    .img_autor{
+        width: 45.1145vw;
+        height: 54.671vw;
+        bottom: -0.5vw;/*220px*/
+    }
+    .profit h2{
+        font-size:30px;
+    }
+    .lottie_feedback{
+        width:220px; 
+        margin-left:-110px;
+    }
+    .slick_prev,
+    .slick_next{
+        width: 160px;
+        height: 44px;
+        line-height: 44px;
+        bottom:0;
+        z-index: 98;
+    }
+    .slick_next{
+    /*border-left: 1px solid #ffffff;*/
+        right: 0;
+    }
+    .slick_prev{
+       /*border-right: 1px solid #ffffff;*/
+         left: 0;
+    }
+    .slick_prev:hover{
+        transition:0.3s;
+    -webkit-box-shadow: -100px 0px 20px -100px rgba(255, 255, 255, 0) inset;
+    -moz-box-shadow: -100px 0px 20px -100px rgba(255, 255, 255, 0) inset;
+    box-shadow: -100px 0px 20px -100px rgba(255, 255, 255, 0) inset;
+    }
+    .slick_next:hover{
+        transition:0.3s;
+    -webkit-box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 0) inset;
+    -moz-box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 0) inset;
+    box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 0) inset;
+}
+}
+@media only screen and (max-width: 360px){
+    .info_autor{
+        top: 18vw;
+    }
+    .text_step{
+        font-size:18px;
+    }
+}
