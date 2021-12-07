@@ -366,7 +366,7 @@
     }
     .transition_box_v{
         height: 80px;
-        background: url(../img/content/pfrm_2_960.png) no-repeat center center;
+
         /*bottom: -7px;*/
     }
     .animation_content{
@@ -379,7 +379,7 @@
 @media only screen and (max-width: 719px){
     .transition_box_v{
         height: 30px;
-        background: url(../img/content/pfrm_2_720.png) no-repeat center center;
+
     }
     .text_reviews_slider{
         max-width: 250px;

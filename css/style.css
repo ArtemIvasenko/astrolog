@@ -128,7 +128,7 @@ video, source {
 .transition_box{
     width: 100%;
     height: 500px;
-    background: url(../img/content/pfrm2.jpg) no-repeat center center;
+    background: linear-gradient(180deg, black, transparent);
     position: absolute;
     top: -50px;
     z-index: -1;
@@ -136,7 +136,8 @@ video, source {
 .transition_box_exp{
     width: 100%;
     height: 500px;
-    background: url(../img/content/pfrm2.jpg) no-repeat center center;
+    background: linear-gradient(180deg, black, transparent);
+
     position: absolute;
     top: -50px;
     z-index: -1;    
@@ -144,7 +145,8 @@ video, source {
 .transition_box_v{
     width: 100%;
     height: 140px;
-    background: url(../img/content/pfrm_2_2.jpg) no-repeat center center;
+    background: linear-gradient(0deg, black, transparent);
+
     position: absolute;
     bottom: 0;   
     z-index: 2;
@@ -152,7 +154,8 @@ video, source {
 .transition_box_exp_v{
     width: 100%;
     height: 140px;
-    background: url(../img/content/pfrm_2_2.jpg) no-repeat center center;
+    background: linear-gradient(0deg, black, transparent);
+
     position: absolute;
     bottom: 0;   
     z-index: -1;
