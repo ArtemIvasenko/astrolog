@@ -20,20 +20,20 @@ else if($name == "13"){ $left_slide_pos = "left_slide_pos_13"; $data_pos = "-384
     <button class="slick_prev_popup arrow_slick_rrr" id="arrow_back"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>
     <button class="slick_next_popup arrow_slick_rrr" id="arrow_next"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>
     <div class="flex_box_text <?php echo $left_slide_pos;?>" data-position="<?php echo $data_pos;?>">
-        <div class="video_box_slcik"><img src="img/feedback/feedback_002.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_003.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_004.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_005.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_006.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_007.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_008.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_009.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_010.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_011.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_012.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_013.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_014.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
-        <div class="video_box_slcik"><img src="img/feedback/feedback_015.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_002.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_003.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_004.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_005.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_006.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_007.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_008.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_009.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_010.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_011.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_012.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_013.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_014.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
+        <div class="video_box_slcik"><img src="img/feedback/feedback_015.jpg" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%"></div>
         
         <?/*<img src="img/feedback/<?php echo $name;?>.webp" alt="Отзыв оразборе судьбы от Максима Фоминых" width="100%">*/?>
     </div>

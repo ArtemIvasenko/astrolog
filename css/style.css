@@ -436,7 +436,9 @@ box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 1) inset;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
-    padding: 30px;
+    padding: 100px 30px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 .experience_media img {
     width: 100%;
@@ -1061,4 +1063,20 @@ box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 1) inset;
 
 .profit_box .animation_content img{
     width: 100%;    
+}
+
+@media (max-width: 1200px) {
+    .profit_box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 700px) {
+    .profit_box {
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 480px) {
+    .experience_media img{
+        margin-bottom: 30px;
+    }
 }
