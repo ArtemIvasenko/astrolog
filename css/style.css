@@ -433,9 +433,13 @@ box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 1) inset;
 }
 .experience_media{
     width: 100%;
-    min-height: 960px;
-    display:none;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    padding: 30px;
+}
+.experience_media img {
+    width: 100%;
 }
 .box_exp{
     width: 100%;
@@ -452,18 +456,7 @@ box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 1) inset;
 .lottie_player-2{
     display:none;
 }
-.animation_content{
-    -webkit-order: 0;
-    -ms-flex-order: 0;
-    order: 0;
-    -webkit-flex: 1 1 280px;
-    -ms-flex: 1 1 280px;
-    flex: 1 1 280px;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    align-self: auto;
-    margin: 30px;
-}
+
 .lottie_player-3{
     /*border:1px solid #ffffff;  */
     border-radius:16px;
@@ -551,10 +544,7 @@ box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 1) inset;
 .img_autor{
     width:2px;
     height: 2px;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    transition: 1s;
     position: absolute;
     bottom: 140px;
     left: 0; 
@@ -1053,8 +1043,22 @@ box-shadow: 100px 0px 20px -100px rgba(255, 255, 255, 1) inset;
 .footer_contacts i{
     font-size:25px;
 }
+@media (min-width: 600px) {
+    .experience {
+        min-height: 600px;
+    }
+}
 
 
+.profit_box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.profit_box .animation_content {
 
+}
 
-
+.profit_box .animation_content img{
+    width: 100%;    
+}

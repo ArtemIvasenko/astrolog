@@ -136,95 +136,8 @@ $(document).ready(function(){
         }); 
     });
     
-    $('.video_reviews_slider').slick({
-        infinite: true,
-        slidesToShow: 4,
-        slidesToScroll: 1,
-        prevArrow: '<button class="slick_prev"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>',
-        nextArrow: '<button class="slick_next"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>',
-        responsive: [
-            {
-              breakpoint: 1651,
-              settings: {
-                slidesToShow:3
-              }
-            },
-            {
-              breakpoint: 1481,
-              settings: {
-                slidesToShow: 2
-              }
-            },
-            {
-              breakpoint: 960,
-              settings: {
-                slidesToShow: 1
-              }
-            },
-            {
-              breakpoint: 481,
-              settings: {
-                centerMode: true,
-                centerPadding: '35px',
-                slidesToShow: 1
-              }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-    }); 
-    $('.text_reviews_slider').slick({
-        infinite: true,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        prevArrow: '<button class="slick_prev extra_left_m"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i></button>',
-        nextArrow: '<button class="slick_next extra_right_m"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i></button>',
-        responsive: [
-            {
-              breakpoint: 1651,
-              settings: {
-                slidesToShow: 5
-              }
-            },
-            {
-              breakpoint: 1481,
-              settings: {
-                slidesToShow: 4
-              }
-            },
-            {
-              breakpoint: 1280,
-              settings: {
-                slidesToShow: 3
-              }
-            },
-            {
-              breakpoint: 960,
-              settings: {
-                slidesToShow: 2
-              }
-            },
-            {
-              breakpoint: 720,
-              settings: {
-                slidesToShow: 1
-              }
-            },
-            {
-              breakpoint: 481,
-              settings: {
-                centerMode: true,
-                centerPadding: '25px',
-                slidesToShow: 1
-              }
-            }
-            
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-    }); 
+    
+    
     scrolTop = $(document).scrollTop();
     if(scrolTop > 400){
         $(".img_autor").css({
@@ -296,38 +209,38 @@ $(document).ready(function(){
                 
 
                     
-                    if(scrolTop >= 300){
-                        if($('#lottie-player-1').length === 0){
-                            $(".info_autor").after('<lottie-player id="lottie-player-1" src="img/content/lottie_fomin.json" background="transparent" speed="0.8" style="width:100%; height: auto; z-index:4; position:rlative;" autoplay></lottie-player>');
-                        }            
-                    }
-                    if(scrolTop >= 500){
-                        $('.lottie_player-3').show();
-                    }
+                    // if(scrolTop >= 300){
+                    //     if($('#lottie-player-1').length === 0){
+                    //         $(".info_autor").after('<lottie-player id="lottie-player-1" src="img/content/lottie_fomin.json" background="transparent" speed="0.8" style="width:100%; height: auto; z-index:4; position:rlative;" autoplay></lottie-player>');
+                    //     }            
+                    // }
+                    // if(scrolTop >= 500){
+                    //     $('.lottie_player-3').show();
+                    // }
                 }
-                if(widthClient >= 1280){
-                    if(widthClient > 1366){
-                        value_scroll = 600;
-                    }else if(widthClient >= 1280 && widthClient <= 1366){
-                        value_scroll = 400;
-                    }
-                    //alert(value_scroll);
-                    if(scrolTop >= value_scroll){
-                        if($('#lottie-player-2').length === 0){
-                            $(".experience").append('<lottie-player id="lottie-player-2" src="img/content/lf30_7s9lrsqy.json" background="transparent" speed="0.8" style="width:100%; height: auto; z-index:4; position:relative;" autoplay></lottie-player>');
-                        }            
-                    }
-                }
-                if(widthClient < 1280){
-                    if(scrolTop >= 500){
-                        $('.lottie_player-3').show();
-                    }       
-                    if(widthClient >= 960){
-                        if($('#lottie-player-2').length === 0){
-                            $(".experience").append('<lottie-player id="lottie-player-2" src="img/content/lf30_7s9lrsqy.json" background="transparent" speed="0.8" style="width:100%; height: auto; z-index:4; position:relative;" autoplay></lottie-player>');
-                        }
-                    }
-                }
+                // if(widthClient >= 1280){
+                //     if(widthClient > 1366){
+                //         value_scroll = 600;
+                //     }else if(widthClient >= 1280 && widthClient <= 1366){
+                //         value_scroll = 400;
+                //     }
+                //     //alert(value_scroll);
+                //     if(scrolTop >= value_scroll){
+                //         if($('#lottie-player-2').length === 0){
+                //             $(".experience").append('<lottie-player id="lottie-player-2" src="img/content/lf30_7s9lrsqy.json" background="transparent" speed="0.8" style="width:100%; height: auto; z-index:4; position:relative;" autoplay></lottie-player>');
+                //         }            
+                //     }
+                // }
+                // if(widthClient < 1280){
+                //     if(scrolTop >= 500){
+                //         $('.lottie_player-3').show();
+                //     }       
+                //     if(widthClient >= 960){
+                //         if($('#lottie-player-2').length === 0){
+                //             $(".experience").append('<lottie-player id="lottie-player-2" src="img/content/lf30_7s9lrsqy.json" background="transparent" speed="0.8" style="width:100%; height: auto; z-index:4; position:relative;" autoplay></lottie-player>');
+                //         }
+                //     }
+                // }
             }     
         }
         lastScrollTop = scrolTop;
