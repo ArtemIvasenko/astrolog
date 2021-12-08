@@ -46,22 +46,15 @@ require "functions/functions.php";
             <img src="video/1_block.jpg" class="bgvid" width="100%">
         </section>
         
-        <section class="autor">
+        <section class="autor" id='autor'>
             
-            <img class="img_autor" src="img/content/fominyh_krug-minMIN.png">
-            <div class="info_autor">
-                <div class="name_autor">Максим<br>Фоминых</div>
-                <div class="status_autor">астро-нумеролог</div>
-                <div class="slogan_autor">Звёзды решают всё!</div>                
-            </div>
-            <img src="img/content/author_border.svg" class="border" style="width:100%; height: auto; z-index:4; position:relative;">
-            <div class="transition_box"></div>
+            
         </section>
         
         
         <button class="order_form_open big_btn_page m-b-20 media-m-t-60" data-value="ajax_form_order" data-form-modul="open_form">ЗАКАЗАТЬ РАЗБОР</button>
         
-        <section class="experience">
+        <section class="experience" id='experience'>
             <!-- ajax lazy load -->
         </section>
 
@@ -94,7 +87,7 @@ require "functions/functions.php";
         
     </main>
     
-    <footer class="footer_content">
+    <footer class="footer_content" id="footer">
      
         
     </footer>
